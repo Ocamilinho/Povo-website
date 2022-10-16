@@ -8,7 +8,7 @@
     <title>Povo</title>
     <link rel="shortcut icon" href="imagens/icons/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="estilo-geral.css">
-    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="csss/header.css">
 </head>
 
 <body>
@@ -18,63 +18,64 @@
         </div>
         <div class="inter-nav">
             <ul class="lista-nav">
-                <li class="item-nav"><a href="htmls/revolta.html" class="anchor">MENU1</a></li>
-                <li class="item-nav"><a href="" class="anchor">MENU2</a></li>
-                <li class="item-nav"><a href="" class="anchor">MENU3</a></li>
+                <li class="item-nav"><a href="htmls/revolta.html" class="anchor">Revoltas</a></li>
+                <li class="item-nav"><a href="htmls/analises.css" class="anchor">Análises</a></li>
+                <li class="item-nav"><a href="htmls/creditos.html" class="anchor">Créditos</a></li>
+                <li class="item-nav-m" onclick="handleMenu()"><img src="imagens/icons/icon-hamburguer.svg" alt="menu" id="menu-mobile-icon"></li>
             </ul>
-        </div>
+        </div>   
     </header>
+    <div class="menu-m" id="menu">
+        <ul class="lista-nav-m">
+            <li class="item-nav-m"><a href="htmls/revolta.html" class="anchor">Revoltas</a></li>
+            <li class="item-nav-m"><a href="htmls/analises.css" class="anchor">Análises</a></li>
+            <li class="item-nav-m"><a href="htmls/creditos.html" class="anchor">Créditos</a></li>
+        </ul>
+    </div>
 
     <main>
-        <div class="d1">
+        <div class="d1" id="d2">
             <div class="imagem">
                 <img src="imagens/mapas/brasil.png" alt="mapa-brasil" id="mapa-brasil">
             </div>
             <div class="texto">
                 <h1 class="titulo-d1">Revoltas?</h1>
-                <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae magnam quam officiis quidem maiores voluptatum ea deserunt, architecto, eius nobis porro qui labore, obcaecati expedita quis illum suscipit accusamus impedit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus voluptatibus aliquam sint, quas nulla autem itaque. Rerum, provident. Veritatis accusamus ipsum eos doloremque sint excepturi recusandae officiis dolore dolorem quos.</p>
+                <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae magnam quam officiis
+                    quidem maiores voluptatum ea deserunt, architecto, eius nobis porro qui labore, obcaecati expedita
+                    quis illum suscipit accusamus impedit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Doloribus voluptatibus aliquam sint, quas nulla autem itaque. Rerum, provident. Veritatis accusamus
+                    ipsum eos doloremque sint excepturi recusandae officiis dolore dolorem quos.</p>
             </div>
         </div>
 
         <div class="d2">
             <div class="inter-revoltas">
                 <h2 class="titulo-card">Revoltas <br> Regenciais</h2>
-                <img src="imagens/revoltas/r1-img.jpg" alt="r1-card" id="img-card1">
-                <img src="imagens/revoltas/r2-img.jpg" alt="r2-card" id="img-card2">
-            </div>
-
-            <div class="info-revoltas">
-                <div class="r1">
-                    <div class="texto-info">
-                        <h1 class="titulo-info">Cabanagem</h1>
-                        <h2 class="subtitulo-info">Grão pará</h2>
-                        <p  class="mortos-info">48000 Mortos</p>
-                    </div>
-                    <div class="mapa-img">
-                        <img src="imagens/mapas/grao-pará.png" alt="gp-mapa" id="mapa-gp1">
-                    </div>
-
-                </div>
-                <div class="r2">
-                    <div class="texto-info">
-                        <h1 class="titulo-info">Sabinada</h1>
-                        <h2 class="subtitulo-info">Bahia</h2>
-                        <p  class="mortos-info">48000 Mortos</p>
-                    </div>
-                    <div class="mapa-img">
-                        <img src="imagens/mapas/bahia.png" alt="gp-mapa" id="mapa-gp2">
-                    </div>
-                </div>
+                <img src="imagens/revoltas/r1-r.jpg" alt="r1-card" id="img-card1">
+                <img src="imagens/revoltas/r2-n.jpg" alt="r2-card" id="img-card2">
             </div>
 
             <div class="revoltas-populares">
                 <h2 class="titulo-populares">Revoltas <br> Populares</h2>
-                <img src="imagens/revoltas/r1-img.jpg" alt="r1-card" id="img-populares1">
-                <img src="imagens/revoltas/r2-img.jpg" alt="r2-card" id="img-populares2">
+                <img src="imagens/revoltas/r1-p.jpg" alt="r1-card" id="img-populares1">
+                <img src="imagens/revoltas/r2-p.webp" alt="r2-card" id="img-populares2">
+            </div>
+
+            <div class="inter-revoltas">
+                <h2 class="titulo-card">Revoltas <br> Nativistas</h2>
+                <img src="imagens/revoltas/r1-n.jpg" alt="r1-card" id="img-card1">
+                <img src="imagens/revoltas/r2-n.jpg" alt="r2-card" id="img-card2">
             </div>
 
         </div>
     </main>
+
+    <footer class="rodape">
+        <img src="imagens/icons/logo-w.png" alt="logo-w" id="logo-rodape">
+    </footer>
+
+
+    <script src="script.js"></script>
 
 </body>
 
