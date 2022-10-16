@@ -66,6 +66,11 @@
     
     #icon-hamburguer{
         display: flex;
+        width: 40px;
+    }
+
+    #logo{
+        width: 115px;
     }
     .anchor{
         display: none;
