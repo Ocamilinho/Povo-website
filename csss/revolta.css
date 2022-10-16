@@ -1,0 +1,51 @@
+
+.apres-revolta{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.titulos-revolta{
+	color: var(--branco);
+	font-family: var(--font-p);
+}
+
+.revolta-nome{
+	font-size: 45px;
+}
+
+.revolta-loc{
+	font-size: 40px;
+}
+
+#mapa-revolta{
+	width: 15vw;
+}
+
+.texto-revolta{
+	font-family: var(--font-p);
+	color: var(--branco);
+	font-size: 20px;
+	padding: 20px;
+}
+
+.imagens-revoltas{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+	margin: 20px;
+	gap: 20px;
+}
+
+.imagem-revolta{
+	width: 40vw;
+	border-radius: 10px;
+	transition: .6s;
+}
+
+.imagem-revolta:hover{
+	transform: translateY(-10px);
+}

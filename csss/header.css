@@ -32,43 +32,8 @@
     transform: translateY(-5px);
 }
 
-#menu-mobile-icon{
-    display: none;
-}
-
-/* Menu Mobile */
-
-.menu-m {
-    display: none;
-    width: 100%;
-    background-color: var(--branco);
-    padding: 10px;
-    align-items: center;
-    justify-content: center;
-}
-
-.lista-nav-m {
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-}
-
-.item-nav-m{
-    font-family: var(--font-r);
-    font-size: 30px;
-    margin: 20px;
-}
-
-@media screen and (max-width:720px) {
-    .item-nav{
-        display: none;
-    }
-
-    #logo{
-        width: 135px;
-    }
-
-    #menu-mobile-icon{
-        display: flex;
+@media screen and (max-width: 600px) {
+    .lista-nav {
+      display: none;
     }
 }

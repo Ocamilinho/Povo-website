@@ -231,9 +231,15 @@ body{
     
 /* estilo-geral.css | http://127.0.0.1:3000/estilo-geral.css */
 
-.d1 {
+    .d1 {
     flex-direction: column;
-  }
+    align-items: center;
+    margin: 10px;
+    }
+
+   #mapa-brasil{
+    width: 300px;
+    }
   
   .inter-revoltas {
     /* flex-flow: row nowrap; */
@@ -321,6 +327,7 @@ body{
     /* transform: translateX(-10px); */
     transform: none;
   }
+
   
 }
 
