@@ -32,8 +32,43 @@
     transform: translateY(-5px);
 }
 
+#menu{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--branco);
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    transition: .6s;
+    gap: 10px;
+}
+
+.anchor-m{
+    color: var(--preto);
+}
+
+.item-m {
+    font-family: var(--font-r);
+    font-size: 25px;
+    padding: 10px;
+    list-style-type: none;
+}
+
+#icon-hamburguer{
+    display: none;
+}
+
+#menu{
+    display: none;
+}
+
 @media screen and (max-width: 600px) {
-    .lista-nav {
-      display: none;
+    
+    #icon-hamburguer{
+        display: flex;
     }
+    .anchor{
+        display: none;
+    }   
+
 }

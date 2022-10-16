@@ -49,3 +49,32 @@
 .imagem-revolta:hover{
 	transform: translateY(-10px);
 }
+
+@media screen and (max-width:600px) {
+
+.apres-revolta {
+	flex-direction: column;
+	gap: 20px;
+  }
+  
+  #mapa-revolta {
+	width: 46vw;
+  }
+  
+  .revolta-nome {
+	font-size: 32px;
+  }
+  
+  .revolta-loc {
+	font-size: 20px;
+  }
+  
+  .imagens-revoltas {
+	flex-flow: column;
+  }
+  
+  .imagem-revolta {
+	width: 85vw;
+  }
+  
+}
