@@ -1,0 +1,24 @@
+.conteudo-f{
+	display: flex;
+	justify-content: center;
+}
+.texto-f{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column nowrap;
+	width: 70vw;
+	padding: 10px;
+	color: var(--branco);
+}
+
+.titulo-f{
+	font-family: var(--font-k);
+	font-size: 40px;
+}
+
+.frase-f{
+	font-family: var(--font-p);
+	font-size: 25px;
+}
+
