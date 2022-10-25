@@ -30,56 +30,56 @@
     </div>
 
     <main class="div-card">
-        <h1 class="titulo-seletor">Revoltas Populares</h2>
+        <h1 class="titulo-seletor">Revoltas Nativistas</h2>
         <div class="grupo-cards-seletor">
 
             <div class="card-seletor">
                 <div class="info-card-seletor">
-                    <h1 class="titulo-card-seletor">Revolta da Armada</h1>
+                    <h1 class="titulo-card-seletor">Revolta de Beckman</h1>
                     <p class="texto-seletor">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis corrupti, eum animi, ratione perferendis aliquid pariatur laboriosam consequatur qui et neque officiis. Quos aspernatur deleniti eligendi cumque harum recusandae perferendis!</p>
                 </div>
                 <div>
-                    <a href="projeto-futuro.html"><button class="botao-seletor">Acessar</button></a>
+                    <a href="revoluções/Populares"><button class="botao-seletor">Acessar</button></a>
                 </div>
             </div>
 
             <div class="card-seletor">
                 <div class="info-card-seletor">
-                    <h1 class="titulo-card-seletor">Revolução Federalista</h1>
+                    <h1 class="titulo-card-seletor">Guerras dos Emboabas</h1>
                     <p class="texto-seletor">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis corrupti, eum animi, ratione perferendis aliquid pariatur laboriosam consequatur qui et neque officiis. Quos aspernatur deleniti eligendi cumque harum recusandae perferendis!</p>
                 </div>
                 <div>
-                    <a href="projeto-futuro.html"><button class="botao-seletor">Acessar</button></a>
+                    <a href="revoluções/Populares"><button class="botao-seletor">Acessar</button></a>
                 </div>
             </div>
 
             <div class="card-seletor">
                 <div class="info-card-seletor">
-                    <h1 class="titulo-card-seletor">Guerra dos Canudos</h1>
+                    <h1 class="titulo-card-seletor">Guerra dos Mascates</h1>
                     <p class="texto-seletor">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis corrupti, eum animi, ratione perferendis aliquid pariatur laboriosam consequatur qui et neque officiis. Quos aspernatur deleniti eligendi cumque harum recusandae perferendis!</p>
                 </div>
                 <div>
-                    <a href="projeto-futuro.html"><button class="botao-seletor">Acessar</button></a>
+                    <a href="revoluções/Populares"><button class="botao-seletor">Acessar</button></a>
                 </div>
             </div>
 
             <div class="card-seletor">
                 <div class="info-card-seletor">
-                    <h1 class="titulo-card-seletor">Revolta da Vacina</h1>
+                    <h1 class="titulo-card-seletor">Felipe de Santos</h1>
                     <p class="texto-seletor">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis corrupti, eum animi, ratione perferendis aliquid pariatur laboriosam consequatur qui et neque officiis. Quos aspernatur deleniti eligendi cumque harum recusandae perferendis!</p>
                 </div>
                 <div>
-                    <a href="projeto-futuro.html"><button class="botao-seletor">Acessar</button></a>
+                    <a href="revoluções/Populares"><button class="botao-seletor">Acessar</button></a>
                 </div>
             </div>
 
             <div class="card-seletor">
                 <div class="info-card-seletor">
-                    <h1 class="titulo-card-seletor">Revolta da Chibata</h1>
+                    <h1 class="titulo-card-seletor">Revolta da Vila Rica</h1>
                     <p class="texto-seletor">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis corrupti, eum animi, ratione perferendis aliquid pariatur laboriosam consequatur qui et neque officiis. Quos aspernatur deleniti eligendi cumque harum recusandae perferendis!</p>
                 </div>
                 <div>
-                    <a href="projeto-futuro.html"><button class="botao-seletor">Acessar</button></a>
+                    <a href="revoluções/Populares"><button class="botao-seletor">Acessar</button></a>
                 </div>
             </div>
 
