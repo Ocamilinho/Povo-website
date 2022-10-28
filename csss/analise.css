@@ -1,0 +1,54 @@
+#fundo-rj{
+    width: 100vw;
+    height: 300px;
+    filter: saturate(0);
+    object-fit: cover;
+    transition: .6s;
+}
+
+#fundo-rj:hover{
+    filter: saturate(1);
+}
+
+.cartao-analise{
+    width: 50vw;
+    padding: 20px;
+    background: rgba( 255, 255, 255, 0.45 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 9.5px );
+    -webkit-backdrop-filter: blur( 9.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+}
+
+.titulo-analise{
+    font-family: var(--font-r);
+    color: white;
+    font-size: 40px;
+}
+
+.conteudo{
+    position: relative;
+    bottom: 50px;
+    padding: 30px;
+
+}
+
+.texto-conteudo-analise{
+    color: white;
+    font-family: var(--font-p);
+    font-size: 25px;
+}
+
+
+@media screen and (max-width:600px) {
+    .cartao-analise {
+    width: 100vw;
+    left: 0;
+    border-radius: 0;
+}
+}
