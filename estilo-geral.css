@@ -238,6 +238,10 @@ body{
     margin: 10px;
     }
 
+    .d2{
+        gap: 0px;
+    }
+
    #mapa-brasil{
     width: 300px;
     }
