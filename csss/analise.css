@@ -1,32 +1,39 @@
 #fundo-rj{
     width: 100vw;
     height: 300px;
-    filter: saturate(0);
     object-fit: cover;
     transition: .6s;
     animation-name: colorir;
     animation-duration: 2s;
+    filter: saturate(0);
 }
 .cartao-analise{
-    width: 50vw;
+    width: 70vw;
     padding: 20px;
-    background: rgba( 255, 255, 255, 0.45 );
+    position: relative;
+    bottom: 60px;
+    left: 20px;
+}
+
+.glass{
+    background: #deaf2173;
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 9.5px );
     -webkit-backdrop-filter: blur( 9.5px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 
-    position: relative;
-    bottom: 50px;
-    left: 20px;
 }
+
 
 .titulo-analise{
     font-family: var(--font-r);
     color: white;
     font-size: 40px;
+    padding: 20px;
 }
+
+
 
 .titulo-analise-conteudo{
     font-family: var(--font-r);
@@ -39,11 +46,12 @@
     color: var(--branco);
     font-size: 20px;
     text-align: justify;
+    text-indent: 40px;
 }
 
 .conteudo{
     position: relative;
-    bottom: 50px;
+    bottom: 60px;
     padding: 60px;
 
     display: flex;
@@ -52,7 +60,16 @@
 
 }
 
+.videos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
 
+#trailer-video{
+    box-shadow: 6px 6px 0px var(--amarelo1);
+}
 
 @media screen and (max-width:600px) {
     .cartao-analise {
@@ -64,13 +81,16 @@
     .titulo-analise{
         font-size: 27px;
     }
+    .conteudo{
+        padding: 20px;
+    }
 }
 
 @keyframes colorir {
     from{
-        filter: saturate(0);
+        filter: saturate(1);
     }
     to{
-        filter: saturate(1);
+        filter: saturate(0);
     }
 }
