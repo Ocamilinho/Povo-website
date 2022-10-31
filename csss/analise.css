@@ -63,12 +63,12 @@
 .videos{
     display: flex;
     align-items: center;
-    justify-content: center;
+    flex-flow: column nowrap;
     margin: 30px;
+    gap: 20px;
 }
 
-
-#trailer-video{
+.trailer-video{
     box-shadow: 6px 6px 0px var(--amarelo1);
 }
 
